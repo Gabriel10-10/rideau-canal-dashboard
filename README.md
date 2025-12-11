@@ -18,7 +18,7 @@ The data is produced by the IoT sensor simulator and processed by Azure Stream A
 
 ## Overview
 
-### Dashboard Features (high level)
+### Dashboard Features
 
 - **Real-time status** of three key locations:
   - Dow’s Lake  
@@ -53,7 +53,7 @@ The data is produced by the IoT sensor simulator and processed by Azure Stream A
 - Vanilla JavaScript
 - Chart.js (via CDN)
 
-**Azure Services (dependencies from the wider project)**
+**Azure Services**
 
 - Azure Cosmos DB (SQL API)
 - Azure App Service (hosting this dashboard)
@@ -83,10 +83,10 @@ To run this dashboard locally or deploy it, you need:
 
 ## Installation
 
-Clone the repository (or this subfolder) and install dependencies:
+Clone the repository <https://github.com/Gabriel10-10/rideau-canal-dashboard> and install dependencies:
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Gabriel10-10/rideau-canal-dashboard>
 cd rideau-canal-dashboard
 
 npm install
@@ -339,7 +339,7 @@ The frontend uses this to show a colored badge like:
 
 This section assumes you already have:
 
-- An Azure subscription (e.g. Azure for Students)
+- An Azure subscription
 - A running **Cosmos DB** instance with data from your Stream Analytics job
 
 ### 1. Create an Azure Web App
@@ -564,4 +564,3 @@ These match the thresholds defined in the Stream Analytics query (based on avera
 
 ---
 
-If you want, we can now create a **separate README** for the sensor simulator or a high-level **project overview** document that links all three parts (simulation, processing, dashboard) together.
