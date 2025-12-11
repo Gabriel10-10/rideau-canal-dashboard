@@ -83,10 +83,10 @@ To run this dashboard locally or deploy it, you need:
 
 ## Installation
 
-Clone the repository <https://github.com/Gabriel10-10/rideau-canal-dashboard> and install dependencies:
+Clone the repository https://github.com/Gabriel10-10/rideau-canal-dashboard and install dependencies:
 
 ```bash
-git clone <https://github.com/Gabriel10-10/rideau-canal-dashboard>
+git clone https://github.com/Gabriel10-10/rideau-canal-dashboard
 cd rideau-canal-dashboard
 
 npm install
